@@ -1,0 +1,162 @@
+@charset "utf-8";
+/*
+   Laboratory 2.
+
+   PHCT Typographic Style Sheet
+   Author: Luis Carlos Arias
+   Date:   16/08/2018
+
+   Filename: ph_styles.css
+
+*/
+
+/*FUENTES*/
+@font-face {
+    font-family: Title1;
+    src:url('1942.woff') format('woff');
+}
+@font-face {
+    font-family: Title2;
+    src:url('cac_champagne.woff') format('woff');
+}
+@font-face {
+    font-family: Title3;
+    src:url('CustomCraft-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: Title4;
+    src:url('DobkinPlain.woff') format('woff');
+}
+
+/* Ancho de pantalla responsivo */
+.contenedor{
+  width: 90%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 480px) {
+  .contenedor{
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .contenedor{
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .contenedor{
+    width: 95%;
+  }
+}
+
+/* Structural Styles */
+/* P bellow header*/
+.Season{
+	background-color: rgba(228, 227, 209, 1);
+  margin-top: 0px;
+}
+p{
+  margin: 0;
+  padding: 5px 25px 25px 25px;
+}
+.Season p{
+  text-align: center;
+  font-size: 1.1em;
+}
+h1{
+  margin: 0;
+  padding: 15px 25px;
+  font-size: 2.5em;
+}
+
+
+
+/* Navigation Styles */
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+  text-align: center;
+}
+nav ul li a:hover{
+    color: hsla(0, 0%, 100%, 0.7);
+    background-color: hsla(0, 0%, 42%, 0.7);
+}
+#nav_main{
+	background-color: rgba(79, 79, 81, 1);
+}
+#nav_main ul li a{
+	color: #dddddd;
+	text-decoration: none;
+}
+#play1 nav{
+	background-color: rgba(158, 170, 202, 1);
+}
+#play1{
+	background-color: rgba(190, 197, 227, 1);
+}
+#play2 nav{
+	background-color: rgba(201, 158, 139, 1);
+}
+#play2{
+	background-color: rgba(252, 183, 149, 1);
+}
+#play3 nav{
+	background-color: rgba(208, 132, 138, 1);
+}
+#play3{
+	background-color: rgba(251, 150, 149, 1);
+}
+#play4 nav{
+	background-color: rgba(191, 166, 198, 1);
+}
+#play4{
+	background-color: rgba(216, 202, 225, 1);
+}
+
+
+/* Section Styles */
+section {
+	clear: right;
+  padding: 0px 0px 15px 0px;
+}
+#Title1{
+	font-family: Title2, Helvetica, sans-serif;
+}
+#Title2{
+	font-family: Title1, Helvetica, sans-serif;
+}
+#Title3{
+	font-family: Title3, Helvetica, sans-serif;
+}
+#Title4{
+	font-family: Title4, Helvetica, sans-serif;
+}
+
+
+
+/* Description List Styles */
+dl {
+	float: right;
+	width: 40%;
+	margin: 0 0 0 4%;
+}
+aside dl dt{
+  font-size: 1.25em;
+}
+aside dl dd{
+  font-size: 1.25em;
+  padding: 0px 0px 10px 0px;
+  margin: 0;
+}
+#play1 aside dl dt{
+  color: rgba(138, 150, 182, 1);
+}
+#play2 aside dl dt{
+  color: rgba(181, 138, 119, 1);
+}
+#play3 aside dl dt{
+  color: rgba(188, 112, 118, 1);
+}
+#play4 aside dl dt{
+  color: rgba(161, 136, 168, 1);
+}
