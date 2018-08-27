@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*
+Author: Luis Carlos Arias Camacho
+Stuent ID: A01364808
+*/
+
+html {
+   background-color: rgba(235, 185, 160, 1);
+}
+
+body {
+   background-color: rgba(250, 238, 218, 1);
+   font-family: Verdana, Arial, sans-serif;
+}
+
+/*Header styles*/
+#header_ {
+  background-color: rgba(61, 138, 216, 1);
+}
+#header_ nav a{
+  color: #ffffff;
+  font-size: 1em;
+  margin: 0.5em 0;
+  padding: 5%;
+}
+#header_ nav ul li{
+  margin: 10% auto;
+}
+#header_ nav ul li a:hover {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Horizontal nav */
+#classes{
+  background-color: rgba(18, 31, 102, 1);
+  font-size: 1em;
+  padding: 15px 0px;
+  text-align: center;
+}
+#classes nav a{
+  color: #ffffff;
+}
+#classes nav ul li a:hover{
+  background-color: rgba(255, 255, 64, 0.5);
+}
+
+/* Centered hr */
+hr{
+  margin: 0 auto;
+}
+
+/* Comments */
+#comments p {
+   font-size: 0.9em;
+   color: rgb(121, 121, 121);
+   line-height: 1.2em;
+}
+
+/* Footer */
+
+#footer {
+   background-color: rgb(44, 91, 169);
+}
+#footer p{
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 0.9em;
+  color: rgb(186, 186, 156);
+}
