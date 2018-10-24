@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!--
+      Author: Luis Carlos Arias Camacho
+      Student ID: A01364808
+    -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title> TAREA 4 </title>
+  </head>
+
+  <body>
+
+    <div class="outer-div">
+      <div class="inner-div"></div>
+    </div>
+
+    <div class="main">
+
+      <nav id="nav_main">
+        <ul id="nav_ul">
+          <li><a class="but click" href="#">Home</a></li>
+          <li><a class="but" href="#">New Comics</a></li>
+          <li><a class="but" href="#">Order Online</a></li>
+          <li><a class="but" href="#">New Movies</a></li>
+          <li><a class="but" href="#">Comic Art</a></li>
+        </ul>
+      </nav>
+
+      <div class="body_ clearfix">
+        <div class="comic">
+          <div id="img1"></div>
+          <div id="img2"></div>
+          <div id="img3"></div>
+        </div>
+
+        <div class="asside_">
+          <p id="title"> Spider Man </p>
+          <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p id="p_f"> This page was made as an example for the homework </p>
+    </div>
+
+  </body>
+
+  <script>
+
+    var nav_ = document.getElementById("nav_ul");
+    var butts_ = nav_.getElementsByClassName("but");
+
+    for (var i = 0; i < butts_.length; i++) {
+    butts_[i].addEventListener("click", function() {
+        var click = document.getElementsByClassName("click");
+        click[0].className = click[0].className.replace(" click", "");
+        this.className += " click";
+        console.log(this.text);
+        });
+    }
+
+</script>
+
+</html>
